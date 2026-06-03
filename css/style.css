@@ -50,3 +50,5 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .step-active .step-lbl{color:var(--blue2)}
 .step-done .step-lbl{color:var(--green)}
 .step-inactive .step-lbl{color:var(--text3)}
+.step-line{flex:1;height:2px;margin:0 10px;margin-top:21px;background:var(--border);border-radius:99px;transition:all 0.4s}
+.step-line.done{background:linear-gradient(90deg,var(--green),var(--blue2))}
