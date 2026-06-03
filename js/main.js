@@ -127,3 +127,5 @@ function updatePayInfo() {
         <div style="font-size:0.7rem;color:var(--text3)">Scan menggunakan aplikasi e-wallet apapun</div>
         ${footer}
       </div>`;
+  }
+}
