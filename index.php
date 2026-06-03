@@ -237,3 +237,11 @@
     </div>
   </div>
 </div>
+
+<!-- ══════════════════ STATUS SECTION ══════════════════ -->
+<div id="sec-status" class="wrap hidden">
+  <div class="hero">
+    <div class="hero-pill"><span class="hero-pill-dot"></span><span class="hero-pill-text">Lacak Reservasi</span></div>
+    <h1>Cek <span class="accent">Status</span><br>Booking Anda</h1>
+    <p>Masukkan kode booking untuk melihat status reservasi dan pembayaran Anda.</p>
+  </div>
