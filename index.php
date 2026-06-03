@@ -253,3 +253,6 @@
              oninput="this.value=this.value.toUpperCase()">
       <button onclick="fetchSt()" class="btn btn-primary" style="padding:13px 22px;white-space:nowrap">Cari</button>
     </div>
+      </div>
+  <div id="st-result" class="hidden fade-in"></div>
+</div>
