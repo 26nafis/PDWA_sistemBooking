@@ -156,3 +156,7 @@
 
   <!-- ── STEP 4: Pembayaran ── -->
   <div id="s4" class="hidden fade-in">
+        <div style="background:rgba(0,229,160,0.08);border:1px solid rgba(0,229,160,0.25);border-radius:16px;padding:20px 24px;display:flex;align-items:center;gap:14px;margin-bottom:24px">
+      <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--green),#00ffbb);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9l5 5 7-7" stroke="#001a0d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
