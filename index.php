@@ -34,3 +34,13 @@
 
 <!-- ══════════════════ BOOKING SECTION ══════════════════ -->
 <div id="sec-booking" class="wrap">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-pill">
+      <span class="hero-pill-dot"></span>
+      <span class="hero-pill-text">Sistem Reservasi Online</span>
+    </div>
+    <h1>Reservasi <span class="accent">Mudah</span>,<br>Jadwal <span class="accent">Teratur</span></h1>
+    <p>Pilih layanan favorit Anda, tentukan jadwal, dan konfirmasi pembayaran<br>hanya dalam beberapa langkah mudah.</p>
+  </div>
