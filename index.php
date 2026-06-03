@@ -200,3 +200,11 @@
           <div style="font-weight:800;font-size:0.95rem;color:var(--blue2);margin-bottom:6px">Klik atau drag & drop file di sini</div>
           <div style="font-size:0.78rem;color:var(--text3)">Format: JPG, PNG, PDF • Ukuran maksimal 5MB</div>
         </div>
+                <div id="up-preview" class="hidden">
+          <div style="width:48px;height:48px;border-radius:14px;background:rgba(0,229,160,0.12);border:1px solid rgba(0,229,160,0.3);display:flex;align-items:center;justify-content:center;margin:0 auto 12px">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 11l5 5 9-9" stroke="var(--green)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div style="font-weight:800;font-size:0.88rem;color:var(--green)" id="fname"></div>
+          <div style="font-size:0.72rem;color:var(--text3);margin-top:6px">Klik untuk ganti file</div>
+        </div>
+      </div>
