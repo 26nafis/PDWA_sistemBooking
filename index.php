@@ -68,3 +68,12 @@
           <div style="height:10px;background:var(--bg3);border-radius:6px;width:80%"></div>
         </div>
       </div>
+            <div class="svc-card" style="opacity:.4;pointer-events:none">
+        <div class="svc-icon" style="background:var(--bg3)"></div>
+        <div style="flex:1">
+          <div style="height:14px;background:var(--bg3);border-radius:8px;width:55%;margin-bottom:10px"></div>
+          <div style="height:10px;background:var(--bg3);border-radius:6px;width:80%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
