@@ -208,3 +208,13 @@
           <div style="font-size:0.72rem;color:var(--text3);margin-top:6px">Klik untuk ganti file</div>
         </div>
       </div>
+
+            <div style="margin-top:20px">
+        <button id="btn-pay" class="btn btn-primary btn-full" onclick="submitPay()">
+          Kirim Bukti Pembayaran
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div id="pay-err" class="err-msg hidden"></div>
+    </div>
+  </div>
