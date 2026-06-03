@@ -87,3 +87,8 @@
       </button>
       <span class="badge b-blue" id="svc-badge"></span>
     </div>
+        <div class="card" style="padding:24px;margin-bottom:20px">
+      <label class="form-label">📅 Pilih Tanggal Reservasi</label>
+      <input type="date" id="slot-date" class="form-input" style="max-width:280px"
+             min="<?= date('Y-m-d') ?>" value="<?= date('Y-m-d') ?>" onchange="loadSlots()">
+    </div>
