@@ -245,3 +245,11 @@
     <h1>Cek <span class="accent">Status</span><br>Booking Anda</h1>
     <p>Masukkan kode booking untuk melihat status reservasi dan pembayaran Anda.</p>
   </div>
+    <div class="card" style="padding:28px;max-width:480px;margin-bottom:24px">
+    <label class="form-label">Kode Booking</label>
+    <div style="display:flex;gap:10px">
+      <input type="text" id="st-code" class="form-input" placeholder="BK12345678"
+             style="font-family:'JetBrains Mono',monospace;font-weight:700;text-transform:uppercase;flex:1"
+             oninput="this.value=this.value.toUpperCase()">
+      <button onclick="fetchSt()" class="btn btn-primary" style="padding:13px 22px;white-space:nowrap">Cari</button>
+    </div>
