@@ -13,3 +13,11 @@ const SVC_IMGS = {
   'Studio Musik':      'uploads/Assets/StudioMusik.jpeg',
 };
 const SVC_FALLBACK = ['✂️','⚽','🏟️','🎸','🎭','📚'];
+
+/* ── INIT ── */
+document.addEventListener('DOMContentLoaded', () => {
+  loadSvc();
+  const t = new Date().toISOString().split('T')[0];
+  document.getElementById('slot-date').value = t;
+  document.getElementById('slot-date').min = t;
+});
