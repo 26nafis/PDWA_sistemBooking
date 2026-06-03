@@ -55,3 +55,8 @@
     <div class="step-line" id="l-34"></div>
     <div class="step-item step-inactive" id="si-4"><div class="step-num">4</div><div class="step-lbl">Pembayaran</div></div>
   </div>
+
+    <!-- ── STEP 1: Pilih Layanan ── -->
+  <div id="s1" class="fade-in">
+    <div class="section-tag">Pilih Layanan</div>
+    <div class="svc-grid" id="svc-grid">
