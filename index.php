@@ -151,3 +151,8 @@
         </button>
       </div>
       <div id="book-err" class="err-msg hidden"></div>
+          </div>
+  </div>
+
+  <!-- ── STEP 4: Pembayaran ── -->
+  <div id="s4" class="hidden fade-in">
