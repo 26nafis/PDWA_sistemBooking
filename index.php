@@ -144,3 +144,10 @@
           <textarea id="c-notes" class="form-input" rows="2" style="resize:none" placeholder="Permintaan khusus, dll."></textarea>
         </div>
       </div>
+            <div style="margin-top:24px">
+        <button id="btn-submit" class="btn btn-primary btn-full" onclick="submitBook()">
+          Konfirmasi Booking
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div id="book-err" class="err-msg hidden"></div>
