@@ -103,3 +103,9 @@
         <span style="width:10px;height:10px;border-radius:3px;background:var(--text3);display:inline-block;opacity:.5"></span>Sudah Lewat
       </span>
     </div>
+        <div class="card" style="padding:24px" id="slots-wrap">
+      <div style="display:flex;align-items:center;justify-content:center;padding:40px;gap:12px;color:var(--text3)">
+        <div class="loader"></div><span style="font-size:0.85rem">Memuat slot waktu...</span>
+      </div>
+    </div>
+  </div>
