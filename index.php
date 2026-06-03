@@ -135,3 +135,12 @@
           <label class="form-label">No. HP / WhatsApp<span class="req">*</span></label>
           <input type="tel" id="c-phone" class="form-input" placeholder="08xxxxxxxxxx">
         </div>
+                <div class="col2">
+          <label class="form-label">Email<span class="opt">(opsional)</span></label>
+          <input type="email" id="c-email" class="form-input" placeholder="email@contoh.com">
+        </div>
+        <div class="col2">
+          <label class="form-label">Catatan<span class="opt">(opsional)</span></label>
+          <textarea id="c-notes" class="form-input" rows="2" style="resize:none" placeholder="Permintaan khusus, dll."></textarea>
+        </div>
+      </div>
