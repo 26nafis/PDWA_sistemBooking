@@ -28,3 +28,8 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .nav-inactive:hover{background:var(--card);color:var(--text)}
 
 .wrap{max-width:1100px;margin:0 auto;padding:48px 32px;position:relative;z-index:1}
+
+
+.hero{margin-bottom:48px}
+.hero-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(64,64,255,0.12);border:1px solid var(--border2);padding:6px 16px;border-radius:99px;margin-bottom:20px;}
+.hero-pill-dot{width:7px;height:7px;border-radius:50%;background:var(--blue2);animation:blink 1.4s infinite}
