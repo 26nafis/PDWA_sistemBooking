@@ -124,3 +124,14 @@
       <div><div class="sum-label">Waktu</div><div class="sum-val" style="font-family:'JetBrains Mono',monospace" id="s-time"></div></div>
       <div><div class="sum-label">Total Bayar</div><div class="sum-price" id="s-price"></div></div>
     </div>
+        <div class="card" style="padding:28px">
+      <div class="section-tag">Data Pemesan</div>
+      <div class="grid2">
+        <div>
+          <label class="form-label">Nama Lengkap<span class="req">*</span></label>
+          <input type="text" id="c-name" class="form-input" placeholder="Nama lengkap Anda">
+        </div>
+        <div>
+          <label class="form-label">No. HP / WhatsApp<span class="req">*</span></label>
+          <input type="tel" id="c-phone" class="form-input" placeholder="08xxxxxxxxxx">
+        </div>
