@@ -256,3 +256,8 @@
       </div>
   <div id="st-result" class="hidden fade-in"></div>
 </div>
+
+<!-- Main JavaScript -->
+<script src="js/main.js"></script>
+</body>
+</html>
