@@ -134,3 +134,31 @@ function updatePayInfo() {
 async function loadSvc() {
   const r = await fetch('api.php?action=get_services');
   const d = await r.json();
+
+ document.getElementById('svc-grid').innerHTML = d.services.map((s, i) => {
+    const imgPath  = SVC_IMGS[s.name];
+    const iconHtml = imgPath
+      ? `<img src="${imgPath}" alt="${esc(s.name)}"
+           onerror="this.parentElement.innerHTML='${SVC_FALLBACK[i % SVC_FALLBACK.length]}';
+                    this.parentElement.style.fontSize='1.8rem';
+                    this.parentElement.style.display='flex';
+                    this.parentElement.style.alignItems='center';
+                    this.parentElement.style.justifyContent='center';">`
+      : SVC_FALLBACK[i % SVC_FALLBACK.length];
+    return `
+      <button class="svc-card" onclick="selSvc(${s.id},'${esc(s.name)}',${s.price_per_slot})">
+        <div class="svc-icon">${iconHtml}</div>
+        <div style="flex:1;min-width:0">
+          <div class="svc-name">${esc(s.name)}</div>
+          <div class="svc-desc">${esc(s.description || '')}</div>
+          <div>
+            <span class="svc-price">${rp(s.price_per_slot)}</span>
+            <span class="svc-dur">/ ${s.slot_duration_minutes} menit</span>
+          </div>
+        </div>
+        <svg class="svc-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M8 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>`;
+  }).join('');
+}   
