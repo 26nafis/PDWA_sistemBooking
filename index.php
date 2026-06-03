@@ -118,3 +118,9 @@
         Kembali
       </button>
     </div>
+        <div class="summary">
+      <div><div class="sum-label">Layanan</div><div class="sum-val" id="s-svc"></div></div>
+      <div><div class="sum-label">Tanggal</div><div class="sum-val" id="s-date"></div></div>
+      <div><div class="sum-label">Waktu</div><div class="sum-val" style="font-family:'JetBrains Mono',monospace" id="s-time"></div></div>
+      <div><div class="sum-label">Total Bayar</div><div class="sum-price" id="s-price"></div></div>
+    </div>
