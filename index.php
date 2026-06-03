@@ -92,3 +92,14 @@
       <input type="date" id="slot-date" class="form-input" style="max-width:280px"
              min="<?= date('Y-m-d') ?>" value="<?= date('Y-m-d') ?>" onchange="loadSlots()">
     </div>
+        <div style="display:flex;flex-wrap:wrap;gap:20px;margin-bottom:16px">
+      <span style="display:flex;align-items:center;gap:8px;font-size:0.75rem;font-weight:700;color:var(--green)">
+        <span style="width:10px;height:10px;border-radius:3px;background:var(--green);display:inline-block"></span>Tersedia
+      </span>
+      <span style="display:flex;align-items:center;gap:8px;font-size:0.75rem;font-weight:700;color:var(--red)">
+        <span style="width:10px;height:10px;border-radius:3px;background:var(--red);display:inline-block;opacity:.6"></span>Dipesan
+      </span>
+      <span style="display:flex;align-items:center;gap:8px;font-size:0.75rem;font-weight:700;color:var(--text3)">
+        <span style="width:10px;height:10px;border-radius:3px;background:var(--text3);display:inline-block;opacity:.5"></span>Sudah Lewat
+      </span>
+    </div>
