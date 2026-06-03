@@ -167,3 +167,22 @@
         </div>
       </div>
     </div>
+
+        <div class="card" style="padding:28px">
+      <div class="section-tag">Upload Bukti Pembayaran</div>
+
+      <!-- Pilih Metode -->
+      <div style="margin-bottom:20px">
+        <label class="form-label">Pilih Metode Pembayaran</label>
+        <select id="pay-method" class="form-input" onchange="updatePayInfo()">
+          <option value="bca">Transfer Bank BCA</option>
+          <option value="bri">Transfer Bank BRI</option>
+          <option value="mandiri">Transfer Bank Mandiri</option>
+          <option value="gopay">GoPay</option>
+          <option value="ovo">OVO</option>
+          <option value="qris">QRIS</option>
+        </select>
+      </div>
+
+      <!-- Info Pembayaran Dinamis -->
+      <div id="pay-info-wrap" style="margin-bottom:24px"></div>
