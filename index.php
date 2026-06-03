@@ -229,3 +229,11 @@
       </div>
       <h2 style="font-size:1.8rem;font-weight:900;color:#fff;margin-bottom:10px;letter-spacing:-0.02em">Pembayaran Terkirim!</h2>
       <p style="font-size:0.9rem;color:var(--text2);max-width:400px;margin:0 auto 28px;line-height:1.7">Admin akan memverifikasi dalam 1×24 jam. Catat kode booking Anda untuk mengecek status.</p>
+            <div class="code-box" id="final-code"></div>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <button onclick="toStatus()" class="btn-outline">Cek Status Booking</button>
+        <button onclick="window.location.reload()" class="btn btn-primary">+ Booking Lagi</button>
+      </div>
+    </div>
+  </div>
+</div>
