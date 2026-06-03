@@ -68,3 +68,62 @@ function updatePayInfo() {
     <span class="bank-lbl">Atas Nama</span>
     <span class="bank-val">BookEase Official</span>
   </div>`;
+
+  const banks = {
+    bca:    { label: 'Bank BCA',    no: '1234 5678 90' },
+    bri:    { label: 'Bank BRI',    no: '0987 6543 21' },
+    mandiri:{ label: 'Bank Mandiri',no: '1122 3344 5566' },
+    gopay:  { label: 'GoPay',       no: '0812-3456-7890' },
+    ovo:    { label: 'OVO',         no: '0812-3456-7890' },
+  };
+
+  if (v === 'qris') {
+    wrap.innerHTML = `
+      <div class="bank-card" style="text-align:center">
+        <div style="font-size:0.7rem;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:16px">Scan QR Code Berikut</div>
+        <div style="background:#fff;border-radius:16px;padding:16px;display:inline-block;margin-bottom:14px">
+          <svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <rect width="160" height="160" fill="white"/>
+            <rect x="10" y="10" width="44" height="44" rx="4" fill="#000"/>
+            <rect x="18" y="18" width="28" height="28" rx="2" fill="#fff"/>
+            <rect x="24" y="24" width="16" height="16" rx="1" fill="#000"/>
+            <rect x="106" y="10" width="44" height="44" rx="4" fill="#000"/>
+            <rect x="114" y="18" width="28" height="28" rx="2" fill="#fff"/>
+            <rect x="120" y="24" width="16" height="16" rx="1" fill="#000"/>
+            <rect x="10" y="106" width="44" height="44" rx="4" fill="#000"/>
+            <rect x="18" y="114" width="28" height="28" rx="2" fill="#fff"/>
+            <rect x="24" y="120" width="16" height="16" rx="1" fill="#000"/>
+            <rect x="62" y="10" width="6" height="6" fill="#000"/><rect x="72" y="10" width="6" height="6" fill="#000"/><rect x="82" y="10" width="6" height="6" fill="#000"/>
+            <rect x="62" y="20" width="6" height="6" fill="#000"/><rect x="82" y="20" width="6" height="6" fill="#000"/>
+            <rect x="72" y="30" width="6" height="6" fill="#000"/><rect x="62" y="40" width="6" height="6" fill="#000"/><rect x="82" y="40" width="6" height="6" fill="#000"/>
+            <rect x="62" y="50" width="6" height="6" fill="#000"/><rect x="72" y="50" width="6" height="6" fill="#000"/><rect x="82" y="50" width="6" height="6" fill="#000"/>
+            <rect x="10" y="62" width="6" height="6" fill="#000"/><rect x="20" y="62" width="6" height="6" fill="#000"/><rect x="40" y="62" width="6" height="6" fill="#000"/>
+            <rect x="10" y="72" width="6" height="6" fill="#000"/><rect x="30" y="72" width="6" height="6" fill="#000"/><rect x="40" y="72" width="6" height="6" fill="#000"/>
+            <rect x="20" y="82" width="6" height="6" fill="#000"/><rect x="30" y="82" width="6" height="6" fill="#000"/>
+            <rect x="10" y="92" width="6" height="6" fill="#000"/><rect x="40" y="92" width="6" height="6" fill="#000"/>
+            <rect x="62" y="62" width="6" height="6" fill="#000"/><rect x="72" y="62" width="6" height="6" fill="#000"/><rect x="82" y="62" width="6" height="6" fill="#000"/><rect x="92" y="62" width="6" height="6" fill="#000"/>
+            <rect x="62" y="72" width="6" height="6" fill="#000"/><rect x="92" y="72" width="6" height="6" fill="#000"/>
+            <rect x="72" y="82" width="6" height="6" fill="#000"/><rect x="82" y="82" width="6" height="6" fill="#000"/>
+            <rect x="62" y="92" width="6" height="6" fill="#000"/><rect x="72" y="92" width="6" height="6" fill="#000"/><rect x="92" y="92" width="6" height="6" fill="#000"/>
+            <rect x="106" y="62" width="6" height="6" fill="#000"/><rect x="116" y="62" width="6" height="6" fill="#000"/><rect x="136" y="62" width="6" height="6" fill="#000"/>
+            <rect x="106" y="72" width="6" height="6" fill="#000"/><rect x="126" y="72" width="6" height="6" fill="#000"/><rect x="144" y="72" width="6" height="6" fill="#000"/>
+            <rect x="116" y="82" width="6" height="6" fill="#000"/><rect x="136" y="82" width="6" height="6" fill="#000"/>
+            <rect x="106" y="92" width="6" height="6" fill="#000"/><rect x="126" y="92" width="6" height="6" fill="#000"/>
+            <rect x="62" y="106" width="6" height="6" fill="#000"/><rect x="82" y="106" width="6" height="6" fill="#000"/><rect x="92" y="106" width="6" height="6" fill="#000"/>
+            <rect x="72" y="116" width="6" height="6" fill="#000"/><rect x="92" y="116" width="6" height="6" fill="#000"/>
+            <rect x="62" y="126" width="6" height="6" fill="#000"/><rect x="82" y="126" width="6" height="6" fill="#000"/>
+            <rect x="72" y="136" width="6" height="6" fill="#000"/><rect x="62" y="144" width="6" height="6" fill="#000"/><rect x="82" y="144" width="6" height="6" fill="#000"/>
+            <rect x="106" y="106" width="6" height="6" fill="#000"/><rect x="126" y="106" width="6" height="6" fill="#000"/><rect x="144" y="106" width="6" height="6" fill="#000"/>
+            <rect x="116" y="116" width="6" height="6" fill="#000"/><rect x="136" y="116" width="6" height="6" fill="#000"/>
+            <rect x="106" y="126" width="6" height="6" fill="#000"/><rect x="126" y="126" width="6" height="6" fill="#000"/>
+            <rect x="116" y="136" width="6" height="6" fill="#000"/><rect x="144" y="136" width="6" height="6" fill="#000"/>
+            <rect x="106" y="144" width="6" height="6" fill="#000"/><rect x="136" y="144" width="6" height="6" fill="#000"/>
+            <!-- Center logo -->
+            <rect x="68" y="68" width="24" height="24" fill="#fff" rx="3"/>
+            <rect x="72" y="72" width="16" height="16" fill="#4040ff" rx="2"/>
+          </svg>
+        </div>
+        <div style="font-size:0.75rem;color:var(--text2);margin-bottom:4px;font-weight:600">BookEase Official</div>
+        <div style="font-size:0.7rem;color:var(--text3)">Scan menggunakan aplikasi e-wallet apapun</div>
+        ${footer}
+      </div>`;
