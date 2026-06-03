@@ -40,3 +40,14 @@ function go(n) {
   if (n === 2) loadSlots();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+function updSteps() {
+  for (let i = 1; i <= 4; i++) {
+    const e = document.getElementById('si-' + i);
+    e.className = 'step-item ' + (i < S.step ? 'step-done' : i === S.step ? 'step-active' : 'step-inactive');
+  }
+  for (let i = 1; i <= 3; i++) {
+    const l = document.getElementById('l-' + i + (i + 1));
+    S.step > i ? l.classList.add('done') : l.classList.remove('done');
+  }
+}
