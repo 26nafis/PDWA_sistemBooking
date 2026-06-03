@@ -129,3 +129,8 @@ function updatePayInfo() {
       </div>`;
   }
 }
+
+/* ── LOAD SERVICES ── */
+async function loadSvc() {
+  const r = await fetch('api.php?action=get_services');
+  const d = await r.json();
