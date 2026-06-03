@@ -67,3 +67,7 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .svc-dur{font-size:0.72rem;color:var(--text3);margin-left:6px}
 .svc-arrow{color:var(--text3);flex-shrink:0;transition:all 0.2s;margin-left:auto}
 .svc-card:hover .svc-arrow{color:var(--blue2);transform:translateX(4px)}
+
+
+.slot-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.slot-btn{padding:12px 8px;border-radius:12px;font-family:'JetBrains Mono',monospace;font-size:0.72rem;text-align:center;transition:all 0.15s;border:1px solid transparent;line-height:1.4;}
