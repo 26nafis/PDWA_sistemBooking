@@ -218,3 +218,14 @@
       <div id="pay-err" class="err-msg hidden"></div>
     </div>
   </div>
+
+    <!-- ── STEP 5: Selesai ── -->
+  <div id="s5" class="hidden fade-in">
+    <div class="card" style="padding:64px 24px;text-align:center">
+      <div class="success-icon">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <path d="M8 20l9 9 15-15" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h2 style="font-size:1.8rem;font-weight:900;color:#fff;margin-bottom:10px;letter-spacing:-0.02em">Pembayaran Terkirim!</h2>
+      <p style="font-size:0.9rem;color:var(--text2);max-width:400px;margin:0 auto 28px;line-height:1.7">Admin akan memverifikasi dalam 1×24 jam. Catat kode booking Anda untuk mengecek status.</p>
