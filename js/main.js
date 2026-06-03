@@ -29,3 +29,14 @@ function showSec(s) {
   document.getElementById('nav-booking').className = 'nav-btn ' + (s === 'booking' ? 'nav-active' : 'nav-inactive');
   document.getElementById('nav-status').className  = 'nav-btn ' + (s === 'status'  ? 'nav-active' : 'nav-inactive');
 }
+
+function go(n) {
+  document.getElementById('s' + S.step).classList.add('hidden');
+  S.step = n;
+  const el = document.getElementById('s' + n);
+  el.classList.remove('hidden');
+  el.classList.add('fade-in');
+  updSteps();
+  if (n === 2) loadSlots();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
