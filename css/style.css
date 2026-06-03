@@ -46,3 +46,7 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .step-active .step-num{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;box-shadow:0 0 24px var(--blue-glow)}
 .step-done .step-num{background:linear-gradient(135deg,var(--green),#00ffbb);color:#001a0d;box-shadow:0 4px 14px rgba(0,229,160,0.35)}
 .step-inactive .step-num{background:var(--bg3);color:var(--text3);border:2px solid var(--border)}
+.step-lbl{font-size:0.65rem;font-weight:700;margin-top:8px;letter-spacing:0.06em;text-transform:uppercase}
+.step-active .step-lbl{color:var(--blue2)}
+.step-done .step-lbl{color:var(--green)}
+.step-inactive .step-lbl{color:var(--text3)}
