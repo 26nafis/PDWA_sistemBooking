@@ -186,3 +186,17 @@
 
       <!-- Info Pembayaran Dinamis -->
       <div id="pay-info-wrap" style="margin-bottom:24px"></div>
+
+            <!-- Upload Bukti -->
+      <div class="upload-zone" id="upload-zone" onclick="document.getElementById('proof-inp').click()">
+        <input type="file" id="proof-inp" class="hidden" accept="image/*,.pdf" onchange="onFile(this)">
+        <div id="up-placeholder">
+          <div style="width:60px;height:60px;border-radius:18px;background:rgba(64,64,255,0.1);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;margin:0 auto 16px">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+              <path d="M13 17V7m0 0L9 11m4-4l4 4" stroke="var(--blue2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 19v1a3 3 0 003 3h12a3 3 0 003-3v-1" stroke="var(--blue2)" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div style="font-weight:800;font-size:0.95rem;color:var(--blue2);margin-bottom:6px">Klik atau drag & drop file di sini</div>
+          <div style="font-size:0.78rem;color:var(--text3)">Format: JPG, PNG, PDF • Ukuran maksimal 5MB</div>
+        </div>
