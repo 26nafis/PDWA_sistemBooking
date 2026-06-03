@@ -51,3 +51,20 @@ function updSteps() {
     S.step > i ? l.classList.add('done') : l.classList.remove('done');
   }
 }
+
+/* ── PAYMENT INFO (dinamis berdasarkan metode) ── */
+function updatePayInfo() {
+  const v    = document.getElementById('pay-method').value;
+  const wrap = document.getElementById('pay-info-wrap');
+  const amt  = S.totalPrice ? ('<span class="bank-total">' + rp(S.totalPrice) + '</span>') : '';
+  const footer = S.totalPrice
+    ? `<div style="height:1px;background:var(--border);margin:16px 0"></div>
+       <div style="display:flex;justify-content:space-between;align-items:center">
+         <span style="font-size:0.7rem;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:0.08em">Total Transfer</span>
+         ${amt}
+       </div>`
+    : '';
+  const an = `<div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px">
+    <span class="bank-lbl">Atas Nama</span>
+    <span class="bank-val">BookEase Official</span>
+  </div>`;
