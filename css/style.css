@@ -10,3 +10,5 @@
   --red:#ff4466;--red2:rgba(255,68,102,0.15);
   --yellow:#ffcc00;--yellow2:rgba(255,204,0,0.15);
 }
+
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
