@@ -31,3 +31,6 @@
     </nav>
   </div>
 </header>
+
+<!-- ══════════════════ BOOKING SECTION ══════════════════ -->
+<div id="sec-booking" class="wrap">
