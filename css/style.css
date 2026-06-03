@@ -103,3 +103,9 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .sum-label{font-size:0.68rem;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:4px}
 .sum-val{font-size:0.95rem;font-weight:700;color:#fff}
 .sum-price{font-family:'JetBrains Mono',monospace;font-size:1.6rem;font-weight:900;color:var(--green)}
+
+.badge{display:inline-flex;align-items:center;padding:4px 12px;border-radius:99px;font-size:0.68rem;font-weight:800;letter-spacing:0.07em;text-transform:uppercase}
+.b-blue{background:rgba(64,64,255,0.15);color:var(--blue2);border:1px solid rgba(64,64,255,0.3)}
+.b-green{background:rgba(0,229,160,0.12);color:var(--green);border:1px solid rgba(0,229,160,0.3)}
+.b-yellow{background:var(--yellow2);color:var(--yellow);border:1px solid rgba(255,204,0,0.3)}
+.b-red{background:var(--red2);color:var(--red);border:1px solid rgba(255,68,102,0.3)}
