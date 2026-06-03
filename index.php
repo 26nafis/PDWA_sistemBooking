@@ -160,3 +160,10 @@
       <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--green),#00ffbb);display:flex;align-items:center;justify-content:center;flex-shrink:0">
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9l5 5 7-7" stroke="#001a0d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
+            <div>
+        <div style="font-weight:800;font-size:0.95rem;color:var(--green)">Booking Berhasil Dibuat!</div>
+        <div style="font-size:0.8rem;color:rgba(0,229,160,0.7);margin-top:2px">
+          Kode booking: <span style="font-family:'JetBrains Mono',monospace;font-weight:800" id="code-disp"></span>
+        </div>
+      </div>
+    </div>
