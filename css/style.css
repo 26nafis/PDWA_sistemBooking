@@ -74,3 +74,6 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .s-avail{background:rgba(0,229,160,0.1);border-color:rgba(0,229,160,0.3);color:var(--green);cursor:pointer}
 .s-avail:hover{background:rgba(0,229,160,0.25);border-color:var(--green);transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,229,160,0.2)}
 .s-avail.sel{background:linear-gradient(135deg,rgba(0,229,160,0.3),rgba(0,229,160,0.15));border-color:var(--green);box-shadow:0 0 0 3px rgba(0,229,160,0.2);transform:translateY(-2px)}
+.s-booked{background:rgba(255,68,102,0.08);border-color:rgba(255,68,102,0.2);color:rgba(255,68,102,0.6);cursor:not-allowed}
+.s-past{background:var(--bg3);border-color:var(--border);border-style:dashed;color:var(--text3);cursor:not-allowed}
+.s-blocked{background:rgba(255,204,0,0.08);border-color:rgba(255,204,0,0.2);color:rgba(255,204,0,0.6);cursor:not-allowed}
