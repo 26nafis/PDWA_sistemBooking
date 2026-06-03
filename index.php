@@ -44,3 +44,14 @@
     <h1>Reservasi <span class="accent">Mudah</span>,<br>Jadwal <span class="accent">Teratur</span></h1>
     <p>Pilih layanan favorit Anda, tentukan jadwal, dan konfirmasi pembayaran<br>hanya dalam beberapa langkah mudah.</p>
   </div>
+
+   <!-- STEP INDICATOR -->
+  <div class="steps">
+    <div class="step-item step-active" id="si-1"><div class="step-num">1</div><div class="step-lbl">Layanan</div></div>
+    <div class="step-line" id="l-12"></div>
+    <div class="step-item step-inactive" id="si-2"><div class="step-num">2</div><div class="step-lbl">Jadwal</div></div>
+    <div class="step-line" id="l-23"></div>
+    <div class="step-item step-inactive" id="si-3"><div class="step-num">3</div><div class="step-lbl">Data Diri</div></div>
+    <div class="step-line" id="l-34"></div>
+    <div class="step-item step-inactive" id="si-4"><div class="step-num">4</div><div class="step-lbl">Pembayaran</div></div>
+  </div>
