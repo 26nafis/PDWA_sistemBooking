@@ -26,3 +26,5 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .nav-active{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;box-shadow:0 4px 16px var(--blue-glow)}
 .nav-inactive{background:transparent;color:var(--text2)}
 .nav-inactive:hover{background:var(--card);color:var(--text)}
+
+.wrap{max-width:1100px;margin:0 auto;padding:48px 32px;position:relative;z-index:1}
