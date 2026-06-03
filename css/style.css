@@ -86,3 +86,14 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .form-input option{background:var(--bg2);color:var(--text)}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .col2{grid-column:1/-1}
+
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;border-radius:12px;font-size:0.88rem;font-weight:700;cursor:pointer;border:none;transition:all 0.2s;font-family:'Inter',sans-serif;}
+.btn-primary{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;box-shadow:0 4px 20px var(--blue-glow)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 32px var(--blue-glow);filter:brightness(1.1)}
+.btn-primary:disabled{opacity:0.5;transform:none;cursor:not-allowed}
+.btn-full{width:100%}
+.btn-back{background:var(--card2);border:1px solid var(--border);color:var(--text2);padding:10px 18px;border-radius:10px;font-size:0.8rem;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:all 0.2s;font-family:'Inter',sans-serif;}
+.btn-back:hover{border-color:var(--blue2);color:var(--blue2);background:rgba(64,64,255,0.08)}
+.btn-outline{background:transparent;border:1.5px solid var(--border2);color:var(--blue2);padding:12px 24px;border-radius:12px;font-size:0.85rem;font-weight:700;cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif;}
+.btn-outline:hover{background:rgba(64,64,255,0.1);border-color:var(--blue2)}
