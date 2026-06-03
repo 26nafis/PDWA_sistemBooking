@@ -21,3 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('slot-date').value = t;
   document.getElementById('slot-date').min = t;
 });
+
+/* ── NAVIGATION ── */
+function showSec(s) {
+  document.getElementById('sec-booking').classList.toggle('hidden', s !== 'booking');
+  document.getElementById('sec-status').classList.toggle('hidden', s !== 'status');
+  document.getElementById('nav-booking').className = 'nav-btn ' + (s === 'booking' ? 'nav-active' : 'nav-inactive');
+  document.getElementById('nav-status').className  = 'nav-btn ' + (s === 'status'  ? 'nav-active' : 'nav-inactive');
+}
