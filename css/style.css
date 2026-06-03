@@ -97,3 +97,9 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .btn-back:hover{border-color:var(--blue2);color:var(--blue2);background:rgba(64,64,255,0.08)}
 .btn-outline{background:transparent;border:1.5px solid var(--border2);color:var(--blue2);padding:12px 24px;border-radius:12px;font-size:0.85rem;font-weight:700;cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif;}
 .btn-outline:hover{background:rgba(64,64,255,0.1);border-color:var(--blue2)}
+
+.summary{background:linear-gradient(135deg,var(--bg3),var(--card2));border:1px solid var(--border2);border-radius:18px;padding:24px 28px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;margin-bottom:24px;position:relative;overflow:hidden;}
+.summary::before{content:'';position:absolute;top:-40px;right:-40px;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,rgba(64,64,255,0.15),transparent 70%);}
+.sum-label{font-size:0.68rem;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:4px}
+.sum-val{font-size:0.95rem;font-weight:700;color:#fff}
+.sum-price{font-family:'JetBrains Mono',monospace;font-size:1.6rem;font-weight:900;color:var(--green)}
