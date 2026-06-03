@@ -22,3 +22,12 @@
           <path d="M7 2v5M13 2v5M2 10h16" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
         </svg>
       </div>
+      <span class="logo-text">Book<span>Ease</span></span>
+    </a>
+    <nav class="nav">
+      <button onclick="showSec('booking')" id="nav-booking" class="nav-btn nav-active">Booking</button>
+      <button onclick="showSec('status')"  id="nav-status"  class="nav-btn nav-inactive">Cek Status</button>
+      <a href="admin/login.php" class="nav-btn nav-inactive" style="color:#6666ff">Admin ↗</a>
+    </nav>
+  </div>
+</header>
