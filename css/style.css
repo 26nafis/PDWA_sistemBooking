@@ -77,3 +77,6 @@ body::after{content:'';position:fixed;bottom:-200px;right:-200px;width:500px;hei
 .s-booked{background:rgba(255,68,102,0.08);border-color:rgba(255,68,102,0.2);color:rgba(255,68,102,0.6);cursor:not-allowed}
 .s-past{background:var(--bg3);border-color:var(--border);border-style:dashed;color:var(--text3);cursor:not-allowed}
 .s-blocked{background:rgba(255,204,0,0.08);border-color:rgba(255,204,0,0.2);color:rgba(255,204,0,0.6);cursor:not-allowed}
+.form-label{font-size:0.8rem;font-weight:700;color:var(--text2);margin-bottom:8px;display:block;letter-spacing:0.03em}
+.form-label .req{color:var(--red);margin-left:3px}
+.form-label .opt{color:var(--text3);font-weight:400;font-size:0.72rem;margin-left:6px}
